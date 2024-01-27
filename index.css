@@ -68,7 +68,7 @@
     margin-bottom: 6px;
 }
 
-.btn{
+#btn{
     font-family: poppins ;
     background-color: #f7822e;
     border-radius: 5px;
@@ -79,7 +79,7 @@
     font-weight: 500;
 } 
 
-.btn:hover{
+#btn:hover{
     background-color: rgb(21 128 61);
 }
 
