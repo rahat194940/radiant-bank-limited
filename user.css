@@ -1,8 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 #destroy{
     color: black;
     font-family: 'PT Sans', sans-serif;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     margin: 0 auto ;
     margin-top: 37px;
+}    
+
+#money {
+    color: rgb(126 34 206);
 }
+
+#desc{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: 15px ;
+    text-align: center;
+    margin: 0 auto ;
+    margin-top: 20px ;
+    width: 800px;
+    font-weight: 500;
+}
+
+.deposit{
+    background-color: rgb(74 222 128);
+    height: 85px;
+    width: 240px;
+    padding-top: 8px;
+    padding-left: 12px;
+    border-radius: 10px;
+}
+
+.withdraw {
+    background-color: rgb(234 179 8);
+    height: 85px;
+    width: 240px;
+    padding-top: 8px;
+    padding-left: 12px;
+    border-radius: 10px;
+}
+
+.balance {
+    background-color: rgb(167 139 250);
+    height: 85px;
+    width: 240px;
+    padding-top: 8px;
+    padding-left: 12px;
+    border-radius: 10px;
+}
+
+.d-w-b {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 215px;
+    margin-top: 35px;
+}
+
+#d-title,
+#w-title,
+#b-title {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.amount-d,
+.amount-w,
+.amount-b {
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #333;
+}
+
+.deposit-box {
+    background-color: rgb(14 165 233);
+}
+
+.deposit-box h2 {
+    color: black;
+    font-family : 'Poppins', sans-serif ;
+    font-size: 28px;
+}
+
+.withdraw-box {
+    background-color: rgb(245 158 11);
+}
+
+.withdraw-box h2 {
+    color: black;
+    font-family : 'Poppins', sans-serif ;
+    font-size: 28px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    margin-top: 40px;
+}
+
+#hagu,
+#magu {
+    font-family: 'Poppins', sans-serif ;
+    border-radius: 6px ;
+    border: 2px #333 ;
+    height: 28px;
+    width: 250px;
+    padding: 3px 10px;
+    font-size: 15px;
+}
+

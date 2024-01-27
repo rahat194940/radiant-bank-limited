@@ -13,10 +13,40 @@
     <link rel="stylesheet" href="user.css">
 <body>
     <header>
-<h1 id="destroy">Let's Go To Destroy Some <span id="money">Moooooney</span><img src="" alt=""></h1>
-    </header>
+<h1 id="destroy">Let's Go To Destroy Some <span id="money">Moooooney</span></h1>
+<p id="desc">Welcome to your account. Now you can <b>DEPOSIT</b> your money or <b>WITHDRAW</b> your money by giving the amount of money. If you want to withdraw some money we will cut 10 taka for every single 1k taka.</p>
+</header>
     <main>
-
+<section>
+<div class="d-w-b">
+    <div class="deposit">
+        <p id="d-title">DEPOSIT</p>
+        <h2 class="amount-d">$<span>0000</span></h2>
+    </div>
+    <div class="withdraw">
+      <p id="w-title">WITHDRAW</p>
+      <h2 class="amount-w">$<span>0000</span></h2>
+    </div>
+    <div class="balance">
+        <p id="b-title">BALANCE</p>
+        <h2 class="amount-b">$<span>5000</span></h2>
+    </div>
+</div>
+</section>
+<section>
+    <div class="container">
+        <div class="deposit-box">
+         <h2>Please Deposit</h2>
+         <input id="magu" placeholder="$ Amount of Deposit" type="text">
+         <button>Deposit</button>
+        </div>
+        <div class="withdraw-box">
+        <h2>Please Withdraw</h2>
+        <input id="hagu" placeholder="$ Amount of Withdraw" type="text">
+        <button>Withdraw</button>
+        </div>
+    </div>
+</section>
     </main>
     <script src="index.js"></script>
 </body>
