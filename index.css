@@ -1,0 +1,180 @@
+*{
+    margin: 0 ;
+}
+#welcome-text {
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin: 0 auto ;
+    margin-top: 37px;
+}
+#banga-text{
+    color: rgb(126 34 206);
+}
+#desc{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: 15px ;
+    text-align: center;
+    margin: 0 auto ;
+    margin-top: 20px ;
+    width: 1000px;
+}
+.moddom{
+    padding: 0 125px;
+    margin: 30px auto;
+}
+.moddom-box{
+    background-color: rgb(6 182 210);
+    height: 340px;
+    padding: 10px 40px ;
+    border-radius: 30px;
+}
+.c {
+    text-align: center;
+    margin-top: 6px ;
+    font-family: 'PT Sans', sans-serif ;
+    color: #333;
+    font-size: 32px;
+}
+#name,
+#msa,
+#email,
+#password {
+    font-family: 'Poppins', sans-serif ;
+    border-radius: 6px ;
+    border: 2px #333 ;
+    height: 36px;
+    width: 290px;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+.input-mini-1,
+.input-mini-3 {
+    margin-bottom: 17px;
+}
+
+.inputs-container {
+    display: flex ;
+    justify-content: space-around;
+    margin-top: 30px; 
+}
+
+.inputs-container h3 {
+    font-family: 'PT Sans', sans-serif;
+    color: #1f1f1f;
+    margin-bottom: 6px;
+}
+
+.btn{
+    font-family: poppins ;
+    background-color: #f7822e;
+    border-radius: 5px;
+    border: 0;
+    height: 41px ;
+    width: 85px ;
+    font-size: 17px;
+    font-weight: 500;
+} 
+
+.btn:hover{
+    background-color: rgb(21 128 61);
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .moddom{
+        padding: 0 60px;
+    }
+    #name,
+    #msa,
+    #email,
+   #password{
+    width: 215px;
+    height: 33px;
+   }
+
+   .moddom-box {
+    margin: 0px auto ;
+   }
+
+
+}
+
+@media screen and (max-width: 440px){
+    #welcome-text{
+        margin-top: 20px;
+    }
+    #desc {
+      width: 400px;
+    }
+    .inputs-container {
+        display: block;
+        margin: 30px auto;
+    }
+    .moddom-box {
+        height: auto;
+        width: auto;
+        display: block;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .input-mini-2 {
+        margin-bottom: 17px;
+    }
+    .moddom{
+        padding: 30px;
+    }
+    #name,
+    #msa,
+    #email,
+    #password {
+        width: 85%;
+        height: 33px;
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    #welcome-text{
+        margin-top: 20px;
+    }
+    #desc{
+    width: 300px ;
+    }
+    #banga{
+        display: none;
+    }
+    .inputs-container {
+        display: block;
+        margin: 30px auto;
+    }
+    .moddom-box {
+        height: auto;
+        width: auto;
+        display: block;
+        padding: 20px;
+    }
+    .input-mini-2 {
+        margin-bottom: 17px;
+    }
+    .moddom{
+        padding: 10px;
+    }
+    #name,
+    #msa,
+    #email,
+    #password {
+        width: 85%;
+        height: 33px;
+    }
+}
+
