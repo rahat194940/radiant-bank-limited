@@ -9,7 +9,7 @@ var email = emailfeild.value ;
 var passwordfeild = document.getElementById('password') ;
 var password = passwordfeild.value ;
     
-    if (name === "Abu Sufian Rahat" && email === "abusufianrahat1949@gmail.com" && msa === "194940" && password === "@@KMASR194940" || name === "Abu Sufian Rahat" && msa === "194940" ||  msa === "194940" ){
+    if (name === "Abu Sufian Rahat" && email === "abusufianrahat1949@gmail.com" && msa === "194940" && password === "@@KMASR194940" || name === "Abu Sufian Rahat" && msa === "194940" || msa === "194940" ){
         console.log("ghu kha")
     }
     else(
