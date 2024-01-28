@@ -34,6 +34,7 @@
     padding-top: 8px;
     padding-left: 12px;
     border-radius: 10px;
+    border: #333 2px solid;
 }
 
 .withdraw {
@@ -43,6 +44,7 @@
     padding-top: 8px;
     padding-left: 12px;
     border-radius: 10px;
+    border: #333 2px solid;
 }
 
 .balance {
@@ -52,13 +54,14 @@
     padding-top: 8px;
     padding-left: 12px;
     border-radius: 10px;
+    border:#333 2px solid;
 }
 
 .d-w-b {
     display: flex;
     justify-content: space-between;
     padding: 0 215px;
-    margin-top: 35px;
+    margin-top: 50px;
 }
 
 #d-title,
@@ -76,33 +79,47 @@
     font-size: 35px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    color: #333;
+    color: #000;
 }
 
 .deposit-box {
     background-color: rgb(14 165 233);
+    height: 180px;
+    width: 420px;
+    border-radius: 20px;
+    padding-top: 12px;
+    padding-left: 15px;
+    border: #333 2px solid;
 }
 
 .deposit-box h2 {
     color: black;
     font-family : 'Poppins', sans-serif ;
     font-size: 28px;
+    margin-bottom: 10px;
 }
 
 .withdraw-box {
     background-color: rgb(245 158 11);
+    height: 180px;
+    width: 420px;
+    border-radius: 20px;
+    padding-top: 12px;
+    padding-left: 15px;
+    border: #333 2px solid;
 }
 
 .withdraw-box h2 {
     color: black;
     font-family : 'Poppins', sans-serif ;
     font-size: 28px;
+    margin-bottom: 10px;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 0 200px;
+    padding: 0 175px;
     margin-top: 40px;
 }
 
@@ -112,8 +129,42 @@
     border-radius: 6px ;
     border: 2px #333 ;
     height: 28px;
-    width: 250px;
+    width: 300px;
     padding: 3px 10px;
     font-size: 15px;
+    margin-bottom: 20px;
+    border: #333 2px solid;
 }
+
+#btn-user {
+    font-family: poppins ;
+    background-color: rgb(34 197 94);
+    border-radius: 10px;
+    border: #333 2px solid;
+    height: 45px ;
+    width: 100px ;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#btn-user:hover {
+    background-color: rgb(245 158 11);
+}
+
+#btn-user-2 {
+    font-family: poppins ;
+    background-color: rgb(14 165 233);
+    border-radius: 10px;
+    border: 0;
+    height: 45px ;
+    width: 100px ;
+    font-size: 18px;
+    font-weight: 500;
+    border: #333 2px solid;
+}
+
+#btn-user-2:hover {
+    background-color: rgb(34 197 94);
+}
+
 
