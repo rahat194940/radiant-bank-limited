@@ -30,6 +30,7 @@
     height: 340px;
     padding: 10px 40px ;
     border-radius: 30px;
+    border: #333 2px solid;
 }
 .c {
     text-align: center;
@@ -44,7 +45,7 @@
 #password {
     font-family: 'Poppins', sans-serif ;
     border-radius: 6px ;
-    border: 2px #333 ;
+    border: 2px #333 solid;
     height: 36px;
     width: 290px;
     padding: 5px 20px;
@@ -77,6 +78,7 @@
     width: 85px ;
     font-size: 17px;
     font-weight: 500;
+    border: #333 2px solid;
 } 
 
 #btn:hover{
