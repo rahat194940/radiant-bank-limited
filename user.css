@@ -168,3 +168,117 @@
 }
 
 
+/* user.css */
+
+/* Your existing styles... */
+
+@media only screen and (max-width: 375px) {
+    /* Styles for mobile devices */
+    #destroy {
+        font-size: 30px;
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    #desc {
+        font-size: 14px;
+        margin-top: 15px;
+        width: 90%;
+    }
+
+    /* user.css */
+
+.d-w-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.deposit,
+.withdraw,
+.balance {
+    width: 80%; /* চাইল্ড গুলির প্যারেন্ট এর 80% দিতে চাচ্ছি */
+    margin-bottom: 15px; /* চাইল্ড গুলির মাঝে মাঝে স্পেস দিতে চাচ্ছি */
+}
+
+.deposit-box,
+.withdraw-box {
+    width: 85%; /* চাইল্ড গুলির প্যারেন্ট এর 80% দিতে চাচ্ছি */
+    margin-bottom: 20px; /* চাইল্ড গুলির মাঝে মাঝে স্পেস দিতে চাচ্ছি */
+}
+
+.withdraw-box h2 {
+    font-size: 27px ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* চাইল্ড গুলি একটার নিচে এসে থাকতে চাচ্ছি */
+    align-items: center; /* চাইল্ড গুলি একটার মধ্যে সেন্টার করতে চাচ্ছি */
+    padding: 10px;
+}
+
+#hagu,
+#magu {
+    width: 80%; /* ইনপুট ফিল্ডগুলি প্যারেন্ট এর 100% জোন ধারণ করতে চাচ্ছি */
+}
+
+#btn-user,
+#btn-user-2 {
+    width: 45%; /* বাটনগুলি প্যারেন্ট এর 100% জোন ধারণ করতে চাচ্ছি */
+}
+
+/* user.css */
+
+}
+
+@media only screen and (min-width: 376px) and (max-width: 470px) {
+    /* Styles for devices between 376px and 480px */
+    #destroy {
+        font-size: 35px;
+        margin-top: 25px;
+        width: 90%;
+    }
+
+    #desc {
+        font-size: 16px;
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .d-w-b {
+        padding: 15px;
+        flex-wrap: wrap;
+    }
+
+    .deposit,
+    .withdraw,
+    .balance {
+        width: 100%; /* চাইল্ড গুলির প্যারেন্ট এর 100% দিতে চাচ্ছি */
+        margin-bottom: 15px; /* চাইল্ড গুলির মাঝে মাঝে স্পেস দিতে চাচ্ছি */
+    }
+
+    .deposit-box,
+    .withdraw-box {
+        width: 90%; /* চাইল্ড গুলির প্যারেন্ট এর 100% দিতে চাচ্ছি */
+        margin-bottom: 15px; /* চাইল্ড গুলির মাঝে মাঝে স্পেস দিতে চাচ্ছি */
+    }
+
+    .container {
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hagu,
+    #magu {
+        width: 80%; /* ইনপুট ফিল্ডগুলি প্যারেন্ট এর 100% জোন ধারণ করতে চাচ্ছি */
+    }
+
+    #btn-user,
+    #btn-user-2 {
+        width: 31%; /* বাটনগুলি প্যারেন্ট এর 100% জোন ধারণ করতে চাচ্ছি */
+    }
+}
+
