@@ -30,7 +30,7 @@
 .deposit{
     background-color: rgb(74 222 128);
     height: 85px;
-    width: 240px;
+    width: 250px;
     padding-top: 8px;
     padding-left: 12px;
     border-radius: 10px;
@@ -40,7 +40,7 @@
 .withdraw {
     background-color: rgb(234 179 8);
     height: 85px;
-    width: 240px;
+    width: 250px;
     padding-top: 8px;
     padding-left: 12px;
     border-radius: 10px;
@@ -50,7 +50,7 @@
 .balance {
     background-color: rgb(167 139 250);
     height: 85px;
-    width: 240px;
+    width: 250px;
     padding-top: 8px;
     padding-left: 12px;
     border-radius: 10px;
@@ -60,8 +60,8 @@
 .d-w-b {
     display: flex;
     justify-content: space-between;
-    padding: 0 215px;
-    margin-top: 50px;
+    padding: 0 205px;
+    margin-top: 43px;
 }
 
 #d-title,
@@ -120,7 +120,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0 175px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 #hagu,
