@@ -9,7 +9,7 @@ var email = emailfeild.value ;
 var passwordfeild = document.getElementById('password') ;
 var password = passwordfeild.value ;
     
-    if (name === "muslim deed" && email === "md20@gmail.com" && msa === "20" && password === "20md" || name === "muslim deed" && msa === "20" || msa === "20md" ){
+    if (name === "muslim deed" && email === "md20@gmail.com" && msa === "20" && password === "20md" || name === "muslim deed" && msa === "20" || msa === "20" ){
         location.href = 'user.html' ;
     }
     else(
