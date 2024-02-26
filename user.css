@@ -233,7 +233,7 @@
 
 }
 
-@media only screen and (min-width: 376px) and (max-width: 470px) {
+@media only screen and (min-width: 376px) and (max-width: 500px) {
     /* Styles for devices between 376px and 480px */
     #destroy {
         font-size: 35px;
@@ -269,6 +269,55 @@
         padding: 0 5%;
         display: flex;
         flex-direction: column;
+    }
+
+    #hagu,
+    #magu {
+        width: 80%; /* ইনপুট ফিল্ডগুলি প্যারেন্ট এর 100% জোন ধারণ করতে চাচ্ছি */
+    }
+
+    #btn-user,
+    #btn-user-2 {
+        width: 31%; /* বাটনগুলি প্যারেন্ট এর 100% জোন ধারণ করতে চাচ্ছি */
+    }
+}
+
+@media screen and (min-width : 500) and (max-width: 780px ) {
+    #destroy {
+        font-size: 35px;
+        margin-top: 25px;
+        width: 90%;
+    }
+
+    #desc {
+        font-size: 16px;
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .d-w-b {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .deposit,
+    .withdraw,
+    .balance {
+        width: 50px; /* চাইল্ড গুলির প্যারেন্ট এর 100% দিতে চাচ্ছি */
+        margin-bottom: 15px; /* চাইল্ড গুলির মাঝে মাঝে স্পেস দিতে চাচ্ছি */
+    }
+
+    .deposit-box,
+    .withdraw-box {
+        width: 90%; /* চাইল্ড গুলির প্যারেন্ট এর 100% দিতে চাচ্ছি */
+        margin-bottom: 15px; /* চাইল্ড গুলির মাঝে মাঝে স্পেস দিতে চাচ্ছি */
+    }
+
+    .container {
+        padding: ;
+        display: flex;
+       justify-content: space-between;
     }
 
     #hagu,

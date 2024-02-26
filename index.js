@@ -13,7 +13,7 @@ var password = passwordfeild.value ;
         location.href = 'user.html' ;
     }
     else(
-         alert("hey brother your gived informations was incorect. you are invalid user. please give me corect informations or sign up")
+         alert("please type your account information")
     )
     
 }

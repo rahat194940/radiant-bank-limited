@@ -11,8 +11,14 @@ document.getElementById('btn-user').addEventListener("click" , function () {
   var freshbalancemul = parseFloat(balancemulstring)
 
   if (maguraw.value === ""){
-   alert("টেহা রজমা দিলে জমা দে তোর টেয়া। মজা করচ ক্যা? সতানে কি লাড়া দ্যায়? হুদাও বাটন এডা টিবস। টেহার পরিমান দে কত টেয়া জমা দিবি এয়ার পর টেহা জমা দে । ভালা হইযা ভালা হইতে টেয়া লাগে না। ")
+   alert("PLEASE TYPE THE VALUE OF DEPOSIT")
    var halum = document.getElementById('btn-user').addEventListener("click", setAttribute(this.ariaDisabled)) 
+}
+
+var himu = maguraw.value ;
+if (isNaN(maguraw) === true){
+   alert("please type number")
+var malum = getElementById("btn-user").addEventListener('click',setAttribute(this.ariaDisabled))
 }
 
    var equationDeposit = freshmagu + freshdepositmul ;
